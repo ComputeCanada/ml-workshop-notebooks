@@ -119,8 +119,8 @@ def plot_red_blue(x, y, ax=None):
 
     xred = x[y == 0]
     xblue = x[y == 1]
-    ax.scatter(xred[:, 0], xred[:, 1], color='red')
-    ax.scatter(xblue[:, 0], xblue[:, 1], color='blue')
+    ax.scatter(xred[:, 0], xred[:, 1], color='red', s=5)
+    ax.scatter(xblue[:, 0], xblue[:, 1], color='blue', s=5)
 
 
 if __name__ == '__main__':
